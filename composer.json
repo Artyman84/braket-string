@@ -9,6 +9,9 @@
             "email": "arty_web@mail.ru"
         }
     ],
+    "require": {
+        "php": ">=7.0"
+    },
     "autoload": {
         "psr-4": {
             "Artyman\\Brackets\\": "src"
