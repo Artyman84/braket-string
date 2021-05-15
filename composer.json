@@ -1,0 +1,17 @@
+{
+    "name": "artyman/brackets",
+    "description": "Otus Hometask",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Iacovetz Artiom",
+            "email": "arty_web@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Artyman\\Brackets\\": "src"
+        }
+    }
+}
