@@ -32,7 +32,8 @@ class StringHelper
     {
         $open = 0;
         $close = 0;
-        foreach ($this->string as $char) {
+        for ($i = 0, $l = strlen($this->string); $i < $l; $i++) {
+            $char = $this->string[$i];
             if (!in_array($char, ["\n", "\t", " ", "(", ")"])) {
                 throw new InvalidArgumentException('Invalid symbol found: ' . $char);
             }
