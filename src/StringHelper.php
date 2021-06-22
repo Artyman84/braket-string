@@ -51,6 +51,6 @@ class StringHelper
             }
         }
 
-        return true;
+        return $open == $close;
     }
 }
