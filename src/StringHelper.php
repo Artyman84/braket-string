@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace Artyman\Brackets;
 
-use http\Exception\InvalidArgumentException;
+use InvalidArgumentException;
 
 /**
  * Class VerificationString
